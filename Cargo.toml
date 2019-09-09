@@ -1,0 +1,19 @@
+[package]
+name = "simdify"
+version = "0.1.0"
+authors = ["Bodil Stokke <bodil@bodil.org>"]
+edition = "2018"
+license = "MPL-2.0+"
+description = "SIMD optimised algorithms and data types"
+repository = "https://github.com/bodil/simdify"
+documentation = "https://docs.rs/simdify"
+categories = ["data-structures"]
+
+[dev-dependencies]
+proptest = "0.9.4"
+rand = { version = "0.7.2", features = ["small_rng"] }
+
+[dependencies]
+typenum = "1.11.2"
+bitmaps = "2.0.0"
+generic-array = "0.13.2"
