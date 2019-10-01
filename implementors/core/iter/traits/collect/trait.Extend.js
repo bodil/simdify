@@ -1,0 +1,10 @@
+(function() {var implementors = {};
+implementors["simdify"] = [{text:"impl&lt;A, N&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/iter/traits/collect/trait.Extend.html\" title=\"trait core::iter::traits::collect::Extend\">Extend</a>&lt;A&gt; for <a class=\"struct\" href=\"simdify/struct.SimdArray.html\" title=\"struct simdify::SimdArray\">SimdArray</a>&lt;A, N&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;A: <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Copy.html\" title=\"trait core::marker::Copy\">Copy</a> + <a class=\"trait\" href=\"simdify/trait.DefaultZero.html\" title=\"trait simdify::DefaultZero\">DefaultZero</a>,<br>&nbsp;&nbsp;&nbsp;&nbsp;N: <a class=\"trait\" href=\"generic_array/trait.ArrayLength.html\" title=\"trait generic_array::ArrayLength\">ArrayLength</a>&lt;<a class=\"struct\" href=\"https://doc.rust-lang.org/nightly/core/core_arch/x86/struct.__m256i.html\" title=\"struct core::core_arch::x86::__m256i\">__m256i</a>&gt;,&nbsp;</span>",synthetic:false,types:["simdify::array::SimdArray"]},{text:"impl&lt;A&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/iter/traits/collect/trait.Extend.html\" title=\"trait core::iter::traits::collect::Extend\">Extend</a>&lt;A&gt; for <a class=\"struct\" href=\"simdify/struct.SimdVec.html\" title=\"struct simdify::SimdVec\">SimdVec</a>&lt;A&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;A: <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Copy.html\" title=\"trait core::marker::Copy\">Copy</a> + <a class=\"trait\" href=\"simdify/trait.DefaultZero.html\" title=\"trait simdify::DefaultZero\">DefaultZero</a>,&nbsp;</span>",synthetic:false,types:["simdify::vec::SimdVec"]},];
+
+            if (window.register_implementors) {
+                window.register_implementors(implementors);
+            } else {
+                window.pending_implementors = implementors;
+            }
+        
+})()
